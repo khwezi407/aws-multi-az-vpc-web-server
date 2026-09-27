@@ -16,7 +16,7 @@ This project demonstrates a real-world AWS networking architecture designed for 
 
 ## Architecture
 
-![Architecture](screenshots/01-architecture.png)
+![Architecture](screenshots/01-architecture.jpg)
 
 **Traffic flow:**
 
@@ -67,26 +67,25 @@ This project demonstrates a real-world AWS networking architecture designed for 
 
 ## Project Structure
 
-```text
+```
 aws-multi-az-vpc-web-server/
 ├── README.md
 ├── scripts/
 │   └── user-data.sh
 ├── screenshots/
-│   ├── 01-architecture.png
-│   ├── 02-vpc.png
-│   ├── 03-subnets.png
-│   ├── 04-route-tables.png
-│   ├── 05-private-route-table.png
-│   ├── 06-internet-gateway.png
-│   ├── 07-nat-gateway.png
-│   ├── 08-security-group.png
-│   ├── 09-instance-running.png
-│   ├── 10-instance-networking.png
-│   ├── 11-live-website.png
-│   └── 12-command-history.png
+│   ├── 01-architecture.jpg
+│   ├── 02-vpc.jpg
+│   ├── 03-subnets.jpg
+│   ├── 04-public-route-table.jpg
+│   ├── 05-private-route-table.jpg
+│   ├── 06-internet-gateway.jpg
+│   ├── 07-nat-gateway.jpg
+│   ├── 08-security-group.jpg
+│   ├── 09-instance-running.jpg
+│   ├── 10-live-website.jpg
+│   └── 12-command-history.jpg
 └── docs/
-    └── troubleshooting.md
+    ── troubleshooting.md
 ```
 
 ## User Data Script
@@ -160,28 +159,27 @@ Open `http://<public-ip>` in a browser. The web page should load.
 ## Screenshots
 
 ### VPC
-![VPC](screenshots/02-vpc.png)
+![VPC](screenshots/02-vpc.jpg)
 
 ### Subnets
-![Subnets](screenshots/03-subnets.png)
+![Subnets](screenshots/03-subnets.jpg)
 
 ### Route Tables
-![Route Tables](screenshots/04-route-tables.png)
-![Private Route Table](screenshots/05-private-route-table.png)
+![Public Route Table](screenshots/04-public-route-table.jpg)
+![Private Route Table](screenshots/05-private-route-table.jpg)
 
 ### Internet Gateway and NAT Gateway
-![Internet Gateway](screenshots/06-internet-gateway.png)
-![NAT Gateway](screenshots/07-nat-gateway.png)
+![Internet Gateway](screenshots/06-internet-gateway.jpg)
+![NAT Gateway](screenshots/07-nat-gateway.jpg)
 
 ### Security Group
-![Security Group](screenshots/08-security-group.png)
+![Security Group](screenshots/08-security-group.jpg)
 
 ### Web Server Running
-![Instance Running](screenshots/09-instance-running.png)
-![Instance Networking](screenshots/10-instance-networking.png)
+![Instance Running](screenshots/09-instance-running.jpg)
 
 ### Live Website
-![Live Website](screenshots/11-live-website.png)
+![Live Website](screenshots/10-live-website.jpg)
 
 ## Troubleshooting
 
@@ -210,7 +208,7 @@ curl http://localhost
 ```
 
 **Command history:**
-![Command History](screenshots/12-command-history.png)
+![Command History](screenshots/12-command-history.jpg)
 
 **Lesson learned:**
 User Data scripts must install their own dependencies. Always verify the application is running after instance launch.
@@ -234,3 +232,7 @@ User Data scripts must install their own dependencies. Always verify the applica
 ## License
 
 MIT License. Free to use for learning.
+```
+
+
+
