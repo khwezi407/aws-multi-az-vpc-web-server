@@ -161,25 +161,45 @@ Open `http://<public-ip>` in a browser. The web page should load.
 ### VPC
 ![VPC](screenshots/02-vpc.jpg)
 
+
+
 ### Subnets
 ![Subnets](screenshots/03-subnets.jpg)
 
+
+
 ### Route Tables
 ![Public Route Table](screenshots/04-public-route-table.jpg)
+
 ![Private Route Table](screenshots/05-private-route-table.jpg)
 
+
+
 ### Internet Gateway and NAT Gateway
+
 ![Internet Gateway](screenshots/06-internet-gateway.jpg)
+
 ![NAT Gateway](screenshots/07-nat-gateway.jpg)
 
+
+
 ### Security Group
+
 ![Security Group](screenshots/08-security-group.jpg)
 
+
+
 ### Web Server Running
+
 ![Instance Running](screenshots/09-instance-running.jpg)
 
+
+
 ### Live Website
+
 ![Live Website](screenshots/10-live-website.jpg)
+
+
 
 ## Troubleshooting
 
